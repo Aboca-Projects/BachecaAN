@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/abocadata/*"
+  to = "https://data.aboca.com/abocadata/:splat"
+  status = 200
+
+[[redirects]]
+ from = "/masterdata/*"
+ to = "https://data.aboca.com/masterdata/:splat"
+ status = 200
+
+[[redirects]]
+ from = "/promo/*"
+ to = "https://data.aboca.com/promo/:splat"
+ status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
